@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Multiverse Store - Categorías</title>
+  <!-- bootstrap-->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- barra de navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand font-weight-bold text-primary" href="index.html">Multiverse Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="categorias.html">Categorías <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Pagina de tarjetas -->
+  <div class="container mt-4">
+    <h2 class="mb-4">Nuestras Categorías y Productos</h2>
+
+    <!-- para la categoria CAMARAS-->
+    <h3 class="text-secondary border-bottom pb-2">Categoría: Cámaras de Seguridad</h3>
+    <div class="row my-3">
+      <!-- primer prod -->
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="imagenes/cards/camaraDomoHD.jpg" alt="Cámara Domo">
+          <div class="card-body">
+            <h5 class="card-title">Cámara Domo HD</h5>
+            <p class="card-text">Visión nocturna y ángulo de visión amplio para interiores.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProducto1">Ver Detalles</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- segundo prod -->
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="imagenes/cards/camaraBulletExterior.jpg" alt="Cámara Bullet">
+          <div class="card-body">
+            <h5 class="card-title">Cámara Bullet Exterior</h5>
+            <p class="card-text">Resistente al agua y polvo, ideal para patios y fachadas.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProducto2">Ver Detalles</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- tercer prod -->
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="imagenes/cards/camaraPtzMotorizada.jpg" alt="Cámara PTZ">
+          <div class="card-body">
+            <h5 class="card-title">Cámara PTZ Motorizada</h5>
+            <p class="card-text">Control de movimiento remoto desde el celular con zoom óptico.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProducto3">Ver Detalles</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- para la categoria alarmas -->
+    <h3 class="text-secondary border-bottom pb-2 mt-5">Categoría: Sistemas de Alarma</h3>
+    <div class="row my-3">
+      <!-- cuarto prod -->
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="imagenes/cards/kitAlarmaBasico.jpg" alt="Kit Básico">
+          <div class="card-body">
+            <h5 class="card-title">Kit de Alarma Básico</h5>
+            <p class="card-text">Incluye central, 1 sensor de movimiento y 1 contacto magnético.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProducto4">Ver Detalles</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- quinto prod -->
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="imagenes/cards/kitAlarmaWifi.jpg" alt="Kit WiFi">
+          <div class="card-body">
+            <h5 class="card-title">Kit Alarma WiFi/GSM</h5>
+            <p class="card-text">Notificaciones instantáneas a tu teléfono ante cualquier apertura.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProducto5">Ver Detalles</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- sexto prod -->
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="imagenes/cards/sirenaExterior.jpg" alt="Sirena Externa">
+          <div class="card-body">
+            <h5 class="card-title">Sirena Exterior con Flash</h5>
+            <p class="card-text">Alta potencia acústica y luz estroboscópica disuasiva.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalProducto6">Ver Detalles</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- seccion modales -->
+  <!-- modal 1 -->
+  <div class="modal fade" id="modalProducto1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cámara Domo HD</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Precio:</strong> $45.000</p>
+          <p><strong>Descripción completa:</strong> Cámara compacta para interiores con resolución de alta definición, visión nocturna por infrarrojos y fácil instalación en techos o paredes.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 2 -->
+  <div class="modal fade" id="modalProducto2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cámara Bullet Exterior</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Precio:</strong> $60.000</p>
+          <p><strong>Descripción completa:</strong> Carcasa metálica con protección IP66 contra intemperie. Diseñada para soportar lluvia, sol y frío extremo sin perder calidad de imagen.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 3 -->
+  <div class="modal fade" id="modalProducto3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cámara PTZ Motorizada</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Precio:</strong> $95.000</p>
+          <p><strong>Descripción completa:</strong> Permite giro de 350 grados en horizontal y 90 grados en vertical. Seguimiento automático de movimiento integrado.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 4 -->
+  <div class="modal fade" id="modalProducto4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Kit de Alarma Básico</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Precio:</strong> $80.000</p>
+          <p><strong>Descripción completa:</strong> Sistema autoinstalable económico perfecto para departamentos o locales pequeños. Incluye batería de respaldo ante cortes de luz.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 5 -->
+  <div class="modal fade" id="modalProducto5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Kit Alarma WiFi/GSM</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Precio:</strong> $120.000</p>
+          <p><strong>Descripción completa:</strong> Compatible con aplicación móvil. Permite armar y desarmar el sistema a distancia y recibe llamadas o mensajes de alerta automáticos.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 6 -->
+  <div class="modal fade" id="modalProducto6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sirena Exterior con Flash</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Precio:</strong> $35.000</p>
+          <p><strong>Descripción completa:</strong> Sirena adicional de 110 dB con protección antisabotaje (tamper). Ideal para disuadir intrusos en el exterior del domicilio.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- pie de pagina -->
+  <footer class="bg-light text-center py-4 mt-5 border-top">
+    <p class="text-muted mb-0">&copy; 2026 Multiverse Store. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- bootstrap JS- Popper.js - jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
